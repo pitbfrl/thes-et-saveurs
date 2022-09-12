@@ -89,7 +89,6 @@ conteneur-de-gauche{
 .title {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    text-align: left;
     position: relative;
     top: 50px;
     font-size: 60px;
@@ -192,6 +191,80 @@ conteneur-de-gauche{
 a {
     text-decoration: none;
 }
+.title-cc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    position: relative;
+    font-size: 60px;
+    left: -25%;
+    top: 60px;
+    text-align: center;
+}
+conteneur-de-gauche-cc {
+    display: flex;
+    flex-direction: column;
+    width:55%;
+    margin-left: 15%;
+}
+.img-1 {
+    width: 630px;
+    border-radius: 00px 0px 0px 00px;
+    position: relative;
+    left: 70%;
+    top: -120px;
+}
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    top: -250px;
+    text-align: center;
+}
+.card {
+    width: 550px;
+    height: 340px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 24px 14px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 0px 24px 14px rgba(0,0,0,0.08);
+    box-shadow: 0px 0px 24px 14px rgba(0,0,0,0.08);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+}
+i {
+    color: #fdc733;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+}
+i:hover {
+    color: #fcdb81;
+}
+.call {
+    position: relative;
+    top: 10%;
+}
+.mail {
+    position: relative;
+    top: 10%;
+}
+.number {
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.e-mail {
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
 @media only screen and (max-width: 768px) {
     body {
         overflow: hidden;
@@ -290,6 +363,42 @@ a {
   .btn-3:hover {
     background: white;
     color: black;
+}
+.title-cc {
+    font-size: 40px;
+    display: none;
+}
+.img-1 {
+    width: 400px;
+    left: 0%;
+    display: block;
+    margin: auto;
+    top: 30px;
+}
+.cards-container {
+    display: grid;
+    top: 50px;
+}
+.card {
+    width: 350px;
+    height: 200px;
+}
+i {
+    font-size: 30px;
+}
+.call {
+    font-size: 20px;
+}
+.mail {
+    font-size: 20px;
+    top: 20px;
+}
+.e-mail {
+    font-size: 20px;
+    top: 70px;
+}
+.number {
+    top: 70px;
 }
   }
 
