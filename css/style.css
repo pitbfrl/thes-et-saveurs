@@ -3,6 +3,17 @@
 body {
     overflow: hidden;
     background: #f2f2f3;
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; 
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 .logo {
     width: 60px;
