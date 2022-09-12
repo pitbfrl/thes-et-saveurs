@@ -4,8 +4,8 @@ body {
     overflow: hidden;
     background: #f2f2f3;
     opacity: 0;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s; 
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s; 
 }
 @keyframes fadeInAnimation {
     0% {
