@@ -265,9 +265,19 @@ i:hover {
     position: relative;
     top: 130px;
 }
+.social-icons-container {
+    display: none;
+    gap: 60px;
+    justify-content: center;
+    position: relative;
+}
+#social-icon {
+    font-size: 40px;
+}
 @media only screen and (max-width: 768px) {
     body {
         overflow: hidden;
+        height: 900px;
     }
     #cc-body {
         overflow: scroll;
@@ -376,11 +386,11 @@ i:hover {
     left: 0%;
     display: block;
     margin: auto;
-    top: 30px;
+    top: 20px;
 }
 .cards-container {
     display: grid;
-    top: 50px;
+    top: 40px;
 }
 .card {
     width: 350px;
@@ -402,6 +412,9 @@ i {
 }
 .number {
     top: 70px;
+}
+.social-icons-container {
+    display: flex;
 }
   }
 
