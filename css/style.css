@@ -177,10 +177,6 @@ conteneur-de-gauche{
     top: 50px;
     transition: width .3s;
 }
-.btn-3:hover {
-    background: white;
-    color: black;
-}
 a {
     text-decoration: none;
 }
@@ -279,5 +275,9 @@ a {
   .btn-3 {
     top: 100px;
   }
+  .btn-3:hover {
+    background: white;
+    color: black;
+}
   }
 
