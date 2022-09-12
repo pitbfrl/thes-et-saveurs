@@ -177,6 +177,10 @@ conteneur-de-gauche{
     top: 50px;
     transition: width .3s;
 }
+.btn-3:hover {
+    background: white;
+    color: black;
+}
 a {
     text-decoration: none;
 }
@@ -249,9 +253,6 @@ a {
         font-size: 25px;
         cursor: pointer;
         transition: background .1s;
-    }
-    button:hover {
-        background: #fcdb81;
     }
     .nav:hover {
         color: rgb(83, 83, 83);
