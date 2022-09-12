@@ -252,7 +252,6 @@ a {
     }
     button:hover {
         background: #fcdb81;
-        display: none;
     }
     .nav:hover {
         color: rgb(83, 83, 83);
