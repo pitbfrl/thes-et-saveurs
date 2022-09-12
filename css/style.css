@@ -269,6 +269,9 @@ i:hover {
     body {
         overflow: hidden;
     }
+    #cc-body {
+        overflow: scroll;
+    }
     .mockup {
         width: 200px;
         display: block;
