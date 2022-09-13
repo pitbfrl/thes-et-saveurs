@@ -76,7 +76,7 @@ conteneur-main {
 
 conteneur-de-droit{
     display:block;
-    width:45%;
+    width: 50%;
 }
 
 
@@ -289,7 +289,7 @@ i:hover {
         position: relative;
         top: 20px;
         border-radius: 20px;
-        right: 0%;
+        right: 0;
         float: none;
     }
     conteneur-main {
