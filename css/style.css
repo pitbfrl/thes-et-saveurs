@@ -136,7 +136,7 @@ conteneur-de-gauche{
     width: 200px;
     height: 40px;
     display: block;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 25px;
     cursor: pointer;
@@ -351,12 +351,12 @@ i:hover {
         color: black;
         border: none;
         border-radius: 5px;
-        width: 200px;
+        width: 150px;
         height: 40px;
-        display: none;
-        font-family: 'Lexend Deca', sans-serif;
+        display: block;
+        font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 20px;
         cursor: pointer;
         transition: background .1s;
     }
@@ -365,12 +365,12 @@ i:hover {
         color: black;
         border: none;
         border-radius: 5px;
-        width: 200px;
+        width: 150px;
         height: 40px;
-        display: none;
+        display: block;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 20px;
         cursor: pointer;
         transition: background .1s;
     }
@@ -384,9 +384,10 @@ i:hover {
         display: flex;
         gap: 20px;
         position: relative;
-        top: 100px;
+        top: -10px;
         left: 0%;
         max-width: 420px;
+        justify-content: center;
     }
 
   .qr-code {
