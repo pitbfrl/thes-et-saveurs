@@ -58,7 +58,6 @@ body {
 }
     .mockup {
         width: 300px;
-        right: 7%;
         top: 50px;
         border-radius:40px;
         position: relative;
@@ -85,8 +84,11 @@ conteneur-main {
 }
 
 conteneur-de-droit{
-    display:block;
+    display:flex;
     width: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -304,28 +306,28 @@ i:hover {
     }
     .mockup {
         width: 200px;
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        top: 20px;
-        border-radius: 20px;
-        right: 0%;
-    }
-    .mockup-container {
-        display: block;
-        margin: 0 auto;
     }
     conteneur-main {
 
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
     
     conteneur-de-gauche{
         margin-left:0%;
     }
 
+    conteneur-de-droit {
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+    }
 
     .title {
         font-family: 'Inter', sans-serif;
