@@ -309,8 +309,11 @@ i:hover {
         position: relative;
         top: 20px;
         border-radius: 20px;
-        right: 0;
-        float: none;
+        right: 0%;
+    }
+    .mockup-container {
+        display: block;
+        margin: 0 auto;
     }
     conteneur-main {
 
