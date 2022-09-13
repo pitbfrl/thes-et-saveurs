@@ -285,11 +285,12 @@ i:hover {
     .mockup {
         width: 200px;
         display: block;
-        margin: auto;
+        margin: 0 auto;
         position: relative;
         top: 20px;
         border-radius: 20px;
         right: 0%;
+        float: none;
     }
     conteneur-main {
 
