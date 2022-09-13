@@ -225,7 +225,6 @@ conteneur-de-gauche-cc {
 }
 .img-1 {
     width: 630px;
-    border-radius: 00px 0px 0px 00px;
     position: relative;
     left: 70%;
     top: -120px;
@@ -409,10 +408,8 @@ i:hover {
     display: none;
 }
 .img-1 {
-    width: 400px;
-    left: 0%;
-    display: block;
-    margin: auto;
+    width: 350px;
+    left: 0;
     top: 20px;
 }
 .cards-container {
@@ -442,6 +439,14 @@ i {
 }
 .social-icons-container {
     display: flex;
+}
+.img-1-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
 }
   }
 
