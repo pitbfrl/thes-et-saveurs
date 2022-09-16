@@ -124,6 +124,7 @@ conteneur-de-gauche{
     text-align: left;
     left: 0%;
     color: grey;
+    max-width: 450px;
 
 
 
@@ -340,9 +341,9 @@ i:hover {
     .caption {
    
         font-weight: 400;
-        font-size: 16px;
+        font-size: 20px;
         position: relative;
-        top: -40px;
+        top: -55px;
         text-align: center;
         color: rgb(92, 91, 91);
     }
@@ -384,7 +385,7 @@ i:hover {
         display: flex;
         gap: 20px;
         position: relative;
-        top: -20px;
+        top: -50px;
         left: 0%;
         max-width: 420px;
         justify-content: center;
