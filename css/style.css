@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Lexend+Deca:wght@300;400&display=swap');
 
 body {
-    overflow: hidden;
+    overflow: scroll;
     background: #f2f2f3;
     opacity: 0;
     transition: opacity 1s;
@@ -305,7 +305,7 @@ i:hover {
     }
     .mockup {
         width: 200px;
-        top: 30px;
+        top: 10px;
     }
     conteneur-main {
 
@@ -335,14 +335,14 @@ i:hover {
         font-size: 35px;
         text-align: center;
         position: relative;
-        top: 20px;
+        top: 0px;
     }
     .caption {
    
         font-weight: 400;
-        font-size: 20px;
+        font-size: 16px;
         position: relative;
-        top: -30px;
+        top: -40px;
         text-align: center;
         color: rgb(92, 91, 91);
     }
@@ -384,7 +384,7 @@ i:hover {
         display: flex;
         gap: 20px;
         position: relative;
-        top: -10px;
+        top: -20px;
         left: 0%;
         max-width: 420px;
         justify-content: center;
